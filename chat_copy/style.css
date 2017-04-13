@@ -1,0 +1,17 @@
+html                            { height:100%; }
+body                            { height: 95%; font: 12px "Lucida Grande", Sans-Serif; background: url(images/paper.jpg); }
+h2                              { height: 35px; color: #fa9f00; font: 30px Helvetica, Sans-Serif; margin: 0 0 10px 0; }
+#page-wrap                      { height: 90%; width: 90%; margin: 30px auto; position: relative; }
+
+#chat-wrap                      { height: inherit; position: relative; margin-top: 35px; margin-bottom:100px; border: 1px solid #eee; margin: 0 0 15px 0; }
+#chat-area                      { height: inherit; overflow: auto; border: 1px solid #666; padding: 20px; background: white; }
+#chat-area span                 { color: white; background: #333; padding: 4px 8px; -moz-border-radius: 5px; -webkit-border-radius: 8px; margin: 0 5px 0 0; }
+#chat-area p                    { padding: 8px 0; border-bottom: 1px solid #ccc; }
+
+#name-area                      { height: 35px; position: absolute; top: 12px; right: 0; color: white; font: bold 12px "Lucida Grande", Sans-Serif; text-align: right; }   
+#name-area span                 { color: #fa9f00; }
+
+#send-message-area p            { float: left; color: white; padding-top: 0px; font-size: 14px; }
+#sendie                         { border-top: 3px solid #999; width: 100%; font: 12px "Lucida Grande", Sans-Serif; }
+
+#send_area                      { height: 60px;}
